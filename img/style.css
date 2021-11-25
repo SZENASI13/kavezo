@@ -1,0 +1,32 @@
+body {
+  background-image: url(img/homebg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vw;
+}
+nav {
+  background-color: #1f5b25;
+}
+.navbar img {
+  height: 2rem;
+}
+.intro img {
+  max-height: 3rem;
+}
+@media screen and (min-width: 600px) {
+  .intro {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .intro {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50px;
+    left: 50px;
+  }
+}
