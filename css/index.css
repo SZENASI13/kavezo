@@ -1,16 +1,13 @@
 body {
-  background-image: url(img/homebg.jpg);
+  background-image: url(../img/homebg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vw;
+
+
 }
-nav {
-  background-color: #1f5b25;
-}
-.navbar img {
-  height: 2rem;
-}
+
 .intro img {
   max-height: 3rem;
 }
@@ -20,6 +17,8 @@ nav {
     position: fixed;
     top: 50%;
     left: 50%;
+    transform: translate(-50%,-50%);
+
   }
 }
 @media screen and (max-width: 599px) {
