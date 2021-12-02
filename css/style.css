@@ -1,6 +1,15 @@
-nav {
+nav,footer {
     background-color: #1f5b25;
   }
   .navbar img {
     height: 2rem;
   }
+
+li img{
+  height: 1.5rem;
+
+}
+.container img{
+  height: 20rem;
+  
+}
